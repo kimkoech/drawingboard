@@ -1,11 +1,10 @@
 import React from 'react';
-import cardImage from './card2.jpg';
 import './Card.css';
 
 class Card extends React.Component {
     render() {
         return (
-            <div className="w3-half zoom">
+            <div className="w3-third zoom">
                 <div className="w3-white w3-text-grey w3-card-4 w3-margin-bottom">
                     <div className="w3-display-container">
                         <img src={this.props.imgsrc} className="card-image" alt="Avatar" />
