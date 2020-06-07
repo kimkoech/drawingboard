@@ -7,8 +7,9 @@ debug = True
 import glob
 jpg = glob.glob("./*.jpg")
 png = glob.glob("./*.png")
+capital_JPG = glob.glob("./*.JPG")
 
-ImageList = jpg + png
+ImageList = jpg + png + capital_JPG
 
 print(ImageList)
 

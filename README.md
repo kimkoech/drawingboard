@@ -1,5 +1,5 @@
 
-## How to create a React app for github pages
+# How to create a React app for github pages
 
 # Step 1
 
@@ -71,9 +71,34 @@ $ git commit -m "Create a React app and publish it to GitHub Pages"
 $ git push origin master
 ```
 
+# How to add a subdomain to you gh pages
+
+# Step one
+
+Create a CNAME file in the public folder with your subdomain address
+
+```
+$ cd public/
+$ touch CNAME
+
+```
+
+```
+# inside CNAME:
+<your-subdomain>.<your-domain>.com
+```
+
+# Step two
+
+Update your DNS settings in the console/dashboard of your domain provider. For google domains just add a new custom resource record with the following properties:
+
+![blank](gdomains_custom.png)
+
+![filled](gdomains_record.png)
 
 
 
+# NPM Commmands
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

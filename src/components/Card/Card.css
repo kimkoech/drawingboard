@@ -3,8 +3,18 @@
   }
   .zoom:hover {
     transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    filter: grayscale(100%);
   }
 
   .card-image{
       width: 100%;
+  }
+
+  .height-control{
+    /*
+    object-fit: cover;
+    object-position: 100% 0;
+    height: 337px;
+    */
+
   }
