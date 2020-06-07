@@ -10,5 +10,6 @@ import image8 from './small.jpg';
 import image9 from './IMG_20160408_200839_949.jpg';
 import image10 from './the boys edited.jpg';
 import image11 from './IMG_3052.JPG';
-import image12 from './IMG_3075.JPG';
-export default [{id : 0, content : image0}, {id : 1, content : image1}, {id : 2, content : image2}, {id : 3, content : image3}, {id : 4, content : image4}, {id : 5, content : image5}, {id : 6, content : image6}, {id : 7, content : image7}, {id : 8, content : image8}, {id : 9, content : image9}, {id : 10, content : image10}, {id : 11, content : image11}, {id : 12, content : image12}];
+import image12 from './IMG_0698.JPG';
+import image13 from './IMG_3075.JPG';
+export default [{id : 0, content : image0}, {id : 1, content : image1}, {id : 2, content : image2}, {id : 3, content : image3}, {id : 4, content : image4}, {id : 5, content : image5}, {id : 6, content : image6}, {id : 7, content : image7}, {id : 8, content : image8}, {id : 9, content : image9}, {id : 10, content : image10}, {id : 11, content : image11}, {id : 12, content : image12}, {id : 13, content : image13}];
