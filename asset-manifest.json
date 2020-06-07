@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/drawingboard/static/css/main.dbb10094.chunk.css",
+    "main.js": "/drawingboard/static/js/main.c778121f.chunk.js",
+    "main.js.map": "/drawingboard/static/js/main.c778121f.chunk.js.map",
+    "runtime-main.js": "/drawingboard/static/js/runtime-main.b2577187.js",
+    "runtime-main.js.map": "/drawingboard/static/js/runtime-main.b2577187.js.map",
+    "static/js/2.438f12c4.chunk.js": "/drawingboard/static/js/2.438f12c4.chunk.js",
+    "static/js/2.438f12c4.chunk.js.map": "/drawingboard/static/js/2.438f12c4.chunk.js.map",
+    "index.html": "/drawingboard/index.html",
+    "precache-manifest.e184f96a5bc8228ada98fa1b848111bd.js": "/drawingboard/precache-manifest.e184f96a5bc8228ada98fa1b848111bd.js",
+    "service-worker.js": "/drawingboard/service-worker.js",
+    "static/css/main.dbb10094.chunk.css.map": "/drawingboard/static/css/main.dbb10094.chunk.css.map",
+    "static/js/2.438f12c4.chunk.js.LICENSE.txt": "/drawingboard/static/js/2.438f12c4.chunk.js.LICENSE.txt",
+    "static/media/avatar_hat.jpg": "/drawingboard/static/media/avatar_hat.10a84669.jpg",
+    "static/media/card2.jpg": "/drawingboard/static/media/card2.2b1ec519.jpg",
+    "static/media/kobu-agency-pvMVecxVoW0-unsplash.jpg": "/drawingboard/static/media/kobu-agency-pvMVecxVoW0-unsplash.2b1ec519.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2577187.js",
+    "static/js/2.438f12c4.chunk.js",
+    "static/css/main.dbb10094.chunk.css",
+    "static/js/main.c778121f.chunk.js"
+  ]
+}
