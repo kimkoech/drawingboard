@@ -1,3 +1,80 @@
+
+## How to create a React app for github pages
+
+# Step 1
+
+Create app locally.
+```
+$ npx create-react-app <name_of_app>
+
+```
+INstall the gh-pages as a "dev-dependancy" of the app 
+
+```
+npm install gh-pages --save-dev
+
+```
+
+
+# Step 2
+
+Create repository from github. Take note of the name of the repository:
+
+```
+http://gitname.github.io/<name_of_repository>
+```
+
+# Step 3
+
+Edit package.json to add paramters for predeployment and deployment and address for homepage.
+
+1. Homepage address:
+
+```
+//...
+"private": true,
+"homepage": "http://gitname.github.io/<name_of_repository>"
+
+```
+
+2. Deployment and predeployment parameters
+```
+"scripts": {
+  //...
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+```
+
+# Step 4
+Link remote repository
+
+```
+ $ git init
+ $ git remote add origin http://gitname.github.io/<name_of_repository>.git
+
+```
+
+# Step 5
+After coding your app deploy to github pages
+
+```
+$ npm run deploy
+```
+
+# Step 6
+The above step creates a branch for hosting your website. It does not track your source files. It only tracks the build files. To track source code:
+
+```
+$ git add .
+$ git commit -m "Create a React app and publish it to GitHub Pages"
+$ git push origin master
+```
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
